@@ -1,0 +1,10 @@
+<%include ../views/layout/header %>
+<h1>result products</h1>
+
+<ul>
+  <% products.forEach(function(x){%>
+
+  <li><%=x.name%>&nbsp;&nbsp;<%=x.price%>
+  </li>
+  <%})%>
+</ul>
